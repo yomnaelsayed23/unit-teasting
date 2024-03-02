@@ -1,0 +1,24 @@
+{
+  "name": "unittestingiti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "ava --serial tests/"
+  },
+  "ava": {
+    "concurrency": 1
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^6.1.1",
+    "chai": "^4.3.7",
+    "fastify": "^4.26.1",
+    "mongodb-memory-server": "^9.1.6",
+    "mongoose": "^8.2.0",
+    "nodemon": "^3.1.0",
+    "sinon": "^17.0.1"
+  }
+}
